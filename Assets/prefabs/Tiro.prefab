@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &109500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 456508}
+  - component: {fileID: 3328424}
+  - component: {fileID: 13637894}
+  - component: {fileID: 2332836}
+  - component: {fileID: 11464240}
+  - component: {fileID: 11472664}
+  - component: {fileID: 8247536}
+  m_Layer: 0
+  m_Name: Tiro
+  m_TagString: TiroTag
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &456508
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109500}
+  m_LocalRotation: {x: 0.4895719, y: 0.51673967, z: 0.5100192, w: 0.48288724}
+  m_LocalPosition: {x: -2.198029, y: 0.4926517, z: -6.0039973}
+  m_LocalScale: {x: -0.03, y: 0.16, z: 0.1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2332836
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109500}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 0ed73dc47f4cb38489020d05e9f02c99, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3328424
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109500}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!82 &8247536
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109500}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 05ed77c6dff5e494f8578f8bcdcb71d1, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.092
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &11464240
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6333beec9967184aa40382d8c35c295, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vel: 30
+--- !u!114 &11472664
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03dd0fd040d6c074ca58c8b519791c4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloneExplosion2: {fileID: 141928, guid: 1f283ffb32dcf6f42b05a9a3f2d06f0b, type: 2}
+  explosion2: {fileID: 141928, guid: 1f283ffb32dcf6f42b05a9a3f2d06f0b, type: 2}
+  cloneExplosionInimigo: {fileID: 141928, guid: 1f283ffb32dcf6f42b05a9a3f2d06f0b,
+    type: 2}
+  explosioninimigo: {fileID: 141928, guid: 1f283ffb32dcf6f42b05a9a3f2d06f0b, type: 2}
+  impact: {fileID: 8300000, guid: 804455c2f7849f2489c5f68999da0060, type: 3}
+--- !u!136 &13637894
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109500}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.036715
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: vel
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_TagString
+      value: TiroTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: cloneExplosion2
+      value: 
+      objectReference: {fileID: 141928, guid: 1f283ffb32dcf6f42b05a9a3f2d06f0b, type: 2}
+    - target: {fileID: 0}
+      propertyPath: explosion2
+      value: 
+      objectReference: {fileID: 141928, guid: 1f283ffb32dcf6f42b05a9a3f2d06f0b, type: 2}
+    - target: {fileID: 0}
+      propertyPath: cloneExplosionInimigo
+      value: 
+      objectReference: {fileID: 141928, guid: 1f283ffb32dcf6f42b05a9a3f2d06f0b, type: 2}
+    - target: {fileID: 0}
+      propertyPath: explosioninimigo
+      value: 
+      objectReference: {fileID: 141928, guid: 1f283ffb32dcf6f42b05a9a3f2d06f0b, type: 2}
+    - target: {fileID: 0}
+      propertyPath: cloneExplosionInimigo3
+      value: 
+      objectReference: {fileID: 100002, guid: 27c5560d8a4776a4391d5b5d7534b3e9, type: 2}
+    - target: {fileID: 0}
+      propertyPath: explosioninimigo3
+      value: 
+      objectReference: {fileID: 100002, guid: 27c5560d8a4776a4391d5b5d7534b3e9, type: 2}
+    - target: {fileID: 0}
+      propertyPath: impact
+      value: 
+      objectReference: {fileID: 8300000, guid: 804455c2f7849f2489c5f68999da0060, type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 05ed77c6dff5e494f8578f8bcdcb71d1, type: 3}
+    - target: {fileID: 0}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Volume
+      value: .0920000002
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 109500}
+  m_IsPrefabParent: 1
